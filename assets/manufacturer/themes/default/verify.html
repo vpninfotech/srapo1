@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Srapo</title>
+    <!-- Animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    
+    
+    <!-- Custom Fonts -->
+    <link href="css/icons/icomoon/styles.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Owl Corousel -->
+    <link href="lib/owl/owl.carousel.css" rel="stylesheet">
+    <link href="lib/owl/owl.theme.css" rel="stylesheet">
+    
+    <link href="lib/datepicker/datepicker3.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom box-shadow">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img src="img/srapos.png" width="150px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            	<div class="default-msg">Default Welcome Message!</div>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>-->
+                    <li class="page-scroll">
+                        <a href="#page-top">Logout</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    
+    <section>
+	<div class="container personal-detail">
+	<div class="row">
+    <div class="col-md-12">
+    <!--steps-basic-->
+    <form class="steps-validation" action="#">
+							<h6>Manufacturer detail</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-md-6">
+                                    	<div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>First name:</label>
+                                                    <input type="text" name="first_name" class="form-control" placeholder="First Name" data-rule-required="true" data-msg-required="First Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Middle name:</label>
+                                                    <input type="text" name="middle_name" class="form-control" placeholder="Middle Name" data-rule-required="true" data-msg-required="Middle Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Last name:</label>
+                                                    <input type="text" name="last_name" class="form-control" placeholder="Last Name" data-rule-required="true" data-msg-required="Last Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Email address:</label>
+                                                    <input type="email" name="email" class="form-control" placeholder="your@email.com" data-rule-required="true" data-rule-email="true" data-msg-required="Email Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Mobile:</label>
+                                                    <input type="text" name="mobile" class="form-control" placeholder="Mobile Number" data-rule-required="true" data-msg-required="Mobile Number Required" data-rule-minlength="6" data-rule-maxlength="15" data-rule-number="true">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                	<label>Gender:</label>
+                                                    <label class="radio-inline">
+                                                	<input name="gender" type="radio" class="radio-inline" checked="checked" data-rule-required="true"> Male
+                                                    </label>
+                                                    <label class="radio-inline">
+                                        			<input name="gender" type="radio"> Female
+                                                    </label>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Date Of Birth:</label>
+                                                    <div class="input-group date" data-provide="datepicker">
+                                                    <input type="text" class="form-control" id="datepicker" data-rule-required="true" data-msg-required="Date of Birth Required">
+                                                        <div class="input-group-addon">
+                                                            <span class="glyphicon glyphicon-th"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+									</div>
+                                    
+                                    <div class="col-md-6">
+                                    	<div class="row">
+                                            <div class="col-md-12">
+                                                
+                                                <div class="form-group">
+                                                    <label>Company name:</label>
+                                                    <input type="text" name="company_name" class="form-control" placeholder="Company Name" data-rule-required="true" data-msg-required="Company Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Company Address:</label>
+                                                    <textarea name="company_name" class="form-control" placeholder="Company Address" rows="4" cols="4"></textarea>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Enter Company Telephone Number">Telephone :</span></label>
+                                                    <input type="text" name="tel" class="form-control" placeholder="Telephone Number" data-rule-required="true" data-msg-required="Telephone Required" data-rule-minlength="6" data-rule-maxlength="15" data-rule-number="true">
+                                                </div>
+                                                                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Enter Company Logo">Logo:</span></label>
+                                                   
+                                                    <input type="file" name="logo" id="fileInput" class="filestyle"/>
+                                                    <span class="help-block">Accepted formats: png. Max file size 200kb</span>
+                                                </div>
+                                                
+                                            </div>
+                                         </div>
+									</div>
+								</div>
+							</fieldset>
+
+							<h6>Bank Detail</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-md-6">
+                                    	<div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Bank name:</label>
+                                                    <input type="text" name="bank_name" class="form-control" placeholder="Bank Name" data-rule-required="true" data-msg-required="Bank Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Account No:</label>
+                                                    <input type="text" name="ac_no" class="form-control" placeholder="Account Number" data-rule-required="true" data-msg-required="Account Number Required" data-rule-minlength="6" data-rule-maxlength="15" data-rule-number="true">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Bank Account Name">Account name:</span></label>
+                                                    <input type="text" name="account_name" class="form-control" placeholder="Account name" data-rule-required="true" data-msg-required="Acount Name Required">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Bank Address:</label>
+                                                    <textarea name="bank_address" class="form-control" placeholder="Bank Address" rows="4" cols="4"></textarea>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Enter Branch Code">IFSC Code:</span></label>
+                                                    <input type="text" name="ifsc" class="form-control" placeholder="IFSC Code" data-rule-required="true" data-msg-required="IFSC Code Required">
+                                                </div>
+                                            </div>
+                                         </div>
+									</div>
+                                    
+                                    <div class="col-md-6">
+                                    	<div class="row">
+                                            <div class="col-md-12">
+                                                  
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Enter GST Number" data-placement = "bottom">GST:</span></label>
+                                                   
+                                                    <input type="file" name="gst" id="fileInput" class="filestyle"/>
+                                                    <span class="help-block">Accepted formats: png. Max file size 200kb</span>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Enter CST Number">CST:</span></label>
+                                                   
+                                                    <input type="file" name="cst" id="fileInput" class="filestyle" />
+                                                    <span class="help-block">Accepted formats: png. Max file size 200kb</span>
+                                                </div>
+                                                                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Upload Company Pancard">Upload Pan:</span></label>
+                                                   
+                                                    <input type="file" name="pan" id="fileInput" class="filestyle"/>
+                                                    <span class="help-block">Accepted formats: png. Max file size 200kb</span>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label><span data-toggle="tooltip" title="" data-original-title="Upload Any One Bank Document">Bank Document:</span></label>
+                                                   
+                                                    <input type="file" name="bank_doc" id="fileInput" class="filestyle" />
+                                                    <span class="help-block">Accepted formats: png. Max file size 200kb</span>
+                                                </div>
+                                                
+                                            </div>
+                                         </div>
+									</div>
+								</div>
+							</fieldset>
+
+							<h6>Preview</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-md-4 col-md-offset-1 overview">
+                                    	<a onClick="javascript:goFirst();"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                    	<h2>Manufacturer Detail</h2>
+                                    	<div>
+                                            
+                                            <table>
+                                            	<tr>
+                                                <td><b> Name </b></td>
+                                                <td>Rajesh G Vaghasiya</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Company Name </b></td>
+                                                <td>VPN Infotech</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Address</b> </td>
+                                                <td>301, Proton plus,<br>L.P. Savani Road, Surat</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Email </b></td>
+                                                <td>rv@vpninfotech.com</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Contact </b></td>
+                                                <td>1234567890</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Gender</b> </td>
+                                                <td>Male</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Date Of Birth </b></td>
+                                                <td>01/01/2000</td>
+                                                </tr>
+                                            </table>
+	                                    </div>
+                                    </div>
+                                    	<div class="col-md-1">
+                                        </div>
+                                    <div class="col-md-4 col-md-offset-1 overview">
+                                    	<a onClick="javascript:goBack();"><i class="fa fa-pencil" aria-hidden="true"></i></a>	
+                                    	<h2>Bank Detail</h2>
+                                    	<div>
+                                            
+                                             <table>
+                                            	<tr>
+                                                <td><b>Bank Name </b></td>
+                                                <td>State Bank Of India</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>A/C No </b></td>
+                                                <td>1234567890465</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>A/C Name </b></td>
+                                                <td>VPN Infotech</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>Bank Address </b></td>
+                                                <td>301, Proton plus, <br>
+                                            		L.P. Savani Road, Surat</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td><b>IFSC Code </b></td>
+                                                <td>JFHD1264</td>
+                                                </tr>
+                                            </table>
+	                                    </div>
+                                    </div>
+                                </div>
+							</fieldset>
+
+							<h6>Choose Plan</h6>
+							<fieldset>
+                            	<div class="row">
+									<div class="col-md-4 col-md-offset-1 plan">
+                                    	<h2>Membership Fee Pay Now</h2>
+                                    	<div class="plan-content">
+                                            <img src="img/payment.png">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy <a href="#" data-toggle="modal" data-target="#payment1">Read More</a></p>
+                                            
+                                            <p><b>Amount : 1500 INR</b></p>
+                                             
+                                             <div class="col-xs-12 test btn-plan">
+                                                
+                                                <button type="button" class="btn btn-primary btn-radio">Select</button>
+                                                <input type="radio" id="pay-now" class="hidden">
+                                            </div>
+										
+	                                    </div>
+                                        
+                                    </div>
+                                    	<div class="col-md-1">
+                                        </div>
+                                    <div class="col-md-4 col-md-offset-1 plan">
+                                    	<h2>Membership Fee Pay Letter</h2>
+                                    	<div class="plan-content">
+                                            <img src="img/pay_letter.png">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy <a href="#" data-toggle="modal" data-target="#payment2">Read More</a></p>
+                                            
+                                            <p><b>Pay Letter</b></p>
+                                             
+                                            
+                                            <div class="col-xs-12 test btn-plan">
+                                                
+                                                <button type="button" class="btn btn-primary btn-radio">Select</button>
+                                                <input type="radio" id="pay-letter" class="hidden">
+                                            </div>
+										
+	                                    </div>
+                                    </div>
+                                </div>
+								
+							</fieldset>
+						</form>
+	</div>
+    </div>
+
+	</div>
+    </section>
+
+    <!-- Footer -->
+   	<!--<section id="footer">
+    	<!--<div class="container">
+        	<div id="introduce-box" class="row">
+            
+              <div class="col-md-3">
+                <div id="address-box">
+                    <a href="#"><img src="img/logo.png" alt=""></a>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+				<div class="row">
+                	<div class="col-xs-6 col-sm-4 col-md-4">
+						<div class="introduce-title">Company</div>
+                        <ul id="introduce-company" class="introduce-list">
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Return</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Delivery Info</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+						<div class="introduce-title">My Account</div>
+                        <ul id="introduce-company" class="introduce-list">
+                            <li><a href="#">My Order</a></li>
+                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="#">My Credit Slip</a></li>
+                            <li><a href="#">My Address</a></li>
+                            <li><a href="#">My Personal In</a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="clearfix footer-adjust"></div>-->
+                    <!--<div class="col-xs-6 col-sm-4 col-md-4">
+						<div class="introduce-title">Support</div>
+                        <ul id="introduce-company" class="introduce-list">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Payment</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="col-md-3">
+                <div id="contact-box">
+                <div class="introduce-title">Newsletter</div>
+                </div>
+                <div id="mail-box" class="input-group">
+                    <input placeholder="Your Email Address" type="text">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">OK</button>
+                    </span>
+                </div>
+                <div class="introduce-title">Let's Socialize</div>
+                <div class="social-link">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+					<a href="#"><i class="fa fa-vk"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-google-plus"></i></a>
+				</div>
+
+
+            </div>
+        </div>-->
+        
+        <div id="footer-menu-box">
+        	<p class="text-center">Copyrights © 2015 Srapo. All Rights Reserved.</p>
+        </div>
+    <!--</section>-->
+    
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    
+    
+    <!-- jQuery  For Wizard-->
+	<script src="js/wizard_steps.js"></script>
+    <script src="js/steps.min.js"></script>
+    <script src="js/validate.min.js"></script>
+    
+    <!-- jQuery  For Datepicker -->
+    <script src="lib/datepicker/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="lib/bootstrap-filestyle/bootstrap-filestyle.js"> </script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/style.min.js"></script>
+    <script src="js/sly.min.js"></script>
+
+<script>
+//Date picker
+	$('#datepicker').datepicker({
+      autoclose: true
+    });
+/*$(document).ready(function() {
+    $("input[id$='payment_now']").click(function() {
+		$("div.payletter").hide();
+        $("div.paynow").show();
+    });
+});
+$(document).ready(function() {
+    $("input[id$='payment_letter']").click(function() {
+		$("div.paynow").hide();
+		$("div.payletter").show();
+        
+		
+    });
+});*/
+function goBack()
+{
+	$('.steps-validation').steps('previous');
+}
+function goFirst()
+{
+	$('.steps-validation').steps('previous');
+	$('.steps-validation').steps('previous');
+}
+
+$(function () {
+    $('.btn-radio').click(function(e) {
+        $('.btn-radio').not(this).removeClass('active')
+    		.siblings('input').prop('checked',false)
+            .siblings('.img-radio').css('opacity','0.5');
+    	$(this).addClass('active')
+            .siblings('input').prop('checked',true)
+    		.siblings('.img-radio').css('opacity','1');
+    });
+});
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+ /*  Script for Bootstrap popup open in center of screen */
+ 
+ 
+ $(document).ready(function(){
+
+    function alignModal(){
+
+        var modalDialog = $(this).find(".modal-dialog");
+
+        /* Applying the top margin on modal dialog to align it vertically center */
+
+        modalDialog.css("margin-top", Math.max(30, ($(window).height() - modalDialog.height()) / 2));
+
+    }
+
+    // Align modal when it is displayed
+
+    $(".modal").on("shown.bs.modal", alignModal);
+
+    
+
+    // Align modal when user resize the window
+
+    $(window).on("resize", function(){
+
+        $(".modal:visible").each(alignModal);
+
+    });   
+
+});
+
+ /*  End :Script for Bootstrap popup open in center of screen */
+ 
+</script>
+
+</div>
+</body>
+
+
+<!-- Modal- 1 -->
+<div id="payment1" class="modal fade" role="dialog">
+  <div class="modal-dialog animated fadeInDown">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Terms &amp; Condition For Pay Now</h4>
+      </div>
+      <div class="modal-body">
+        <p>Payment - 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Payment - 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Payment - 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal-2 -->
+<div id="payment2" class="modal fade" role="dialog">
+  <div class="modal-dialog animated fadeInDown">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Terms &amp; Condition For Pay Letter</h4>
+      </div>
+      <div class="modal-body">
+        <p>Payment - 2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Payment - 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Payment - 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+</html>

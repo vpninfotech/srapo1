@@ -1,0 +1,52 @@
+[16-Nov-2016 12:05:41 UTC] PHP Fatal error:  Call to undefined method Filter_model::getFilterByName() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Filter.php on line 577
+[16-Nov-2016 12:05:44 UTC] PHP Fatal error:  Call to undefined method Filter_model::getFilterByName() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Filter.php on line 577
+[16-Nov-2016 12:05:55 UTC] PHP Fatal error:  Call to undefined method Filter_model::getFilterByName() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Filter.php on line 577
+[16-Nov-2016 12:07:26 UTC] PHP Fatal error:  Call to undefined method Filter_model::getFilterByName() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Filter.php on line 577
+[17-Nov-2016 09:23:12 UTC] PHP Fatal error:  Call to a member function initialize() on null in /home/vpnteam/public_html/srapo_CI/admin/libraries/Mailer.php on line 31
+[17-Nov-2016 09:53:08 UTC] PHP Fatal error:  Call to a member function library() on null in /home/vpnteam/public_html/srapo_CI/admin/libraries/Mailer.php on line 27
+[17-Nov-2016 10:43:33 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/vpnteam/public_html/srapo_CI/admin/libraries/Mailer.php on line 36
+[17-Nov-2016 11:21:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/vpnteam/public_html/srapo_CI/admin/libraries/Mailer.php on line 57
+[17-Nov-2016 11:55:46 UTC] PHP Fatal error:  Call to a member function set_newline() on null in /home/vpnteam/public_html/srapo_CI/admin/libraries/Mailer.php on line 43
+[26-Nov-2016 06:19:01 UTC] PHP Fatal error:  Call to undefined method Return_reason_model::softDeleteReturnReason() in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/Return_reason.php on line 320
+[26-Nov-2016 06:19:37 UTC] PHP Fatal error:  Call to undefined method Return_reason_model::softDeleteReturnReason() in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/Return_reason.php on line 320
+[26-Nov-2016 06:24:13 UTC] PHP Fatal error:  Call to undefined method Return_reason_model::softDeleteReturnReason() in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/Return_reason.php on line 320
+[26-Nov-2016 06:28:18 UTC] PHP Fatal error:  Call to a member function softDeleteUserGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/User_groups.php on line 319
+[26-Nov-2016 06:29:53 UTC] PHP Fatal error:  Call to a member function softDeleteUserGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/User_groups.php on line 319
+[26-Nov-2016 06:31:12 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 06:33:12 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 06:41:05 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 06:47:50 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 06:47:57 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 07:45:26 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[26-Nov-2016 12:21:57 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[28-Nov-2016 03:53:34 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[28-Nov-2016 04:37:13 UTC] PHP Fatal error:  Call to a member function softDeleteCustomerGroup() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/customers/Customer_groups.php on line 319
+[03-Dec-2016 06:31:23 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/vpnteam/public_html/srapo_CI/admin/controllers/dashboard/Dashboard.php on line 103
+[03-Dec-2016 12:47:50 UTC] PHP Fatal error:  Call to undefined method Return_status_model::getAllReturnStatus() in /home/vpnteam/public_html/srapo_CI/admin/controllers/sales/Returns.php on line 103
+[03-Dec-2016 12:51:20 UTC] PHP Fatal error:  Call to undefined method Return_status_model::getAllReturnStatus() in /home/vpnteam/public_html/srapo_CI/admin/controllers/sales/Returns.php on line 103
+[03-Dec-2016 12:53:25 UTC] PHP Fatal error:  Call to undefined method Return_reason_model::getAllReturnReason() in /home/vpnteam/public_html/srapo_CI/admin/controllers/sales/Returns.php on line 476
+[03-Dec-2016 12:53:54 UTC] PHP Fatal error:  Call to undefined method Return_actions_model::getAllReturnActions() in /home/vpnteam/public_html/srapo_CI/admin/controllers/sales/Returns.php on line 480
+[05-Dec-2016 12:03:31 UTC] PHP Fatal error:  Call to a member function Send_contact_mail() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 240
+[05-Dec-2016 12:03:42 UTC] PHP Fatal error:  Call to a member function Send_contact_mail() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 240
+[05-Dec-2016 12:05:18 UTC] PHP Fatal error:  Call to a member function Send_contact_mail() on null in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 240
+[06-Dec-2016 05:25:59 UTC] PHP Parse error:  syntax error, unexpected ''iso_code'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/vpnteam/public_html/srapo_CI/admin/models/system/Country_model.php on line 170
+[06-Dec-2016 06:52:13 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:20 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:21 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:22 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:23 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:23 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:37 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:38 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:41 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:42 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[06-Dec-2016 06:52:43 UTC] PHP Fatal error:  Call to undefined method Common::getTotalEmailsByProductsOrdered() in /home/vpnteam/public_html/srapo_CI/admin/controllers/marketing/Contact_send_mail.php on line 204
+[07-Dec-2016 09:54:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vpnteam/public_html/srapo_CI/admin/controllers/system/Settings.php on line 885
+[07-Dec-2016 10:34:02 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:34:30 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:36:28 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:37:47 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:41:22 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:42:31 UTC] PHP Fatal error:  Call to undefined method Attributes_model::getAttributesById() in /home/vpnteam/public_html/srapo_CI/admin/controllers/catalog/Product.php on line 922
+[07-Dec-2016 10:55:14 UTC] PHP Fatal error:  Call to a member function Tpl_Email() on null in /home/vpnteam/public_html/srapo_CI/admin/models/catalog/Manufacturer_model.php on line 100
+[14-Dec-2016 11:51:36 UTC] PHP Fatal error:  Call to a member function FileArrayInsert_NoType() on null in /home/vpnteam/public_html/srapo_CI/admin/models/support/Ticket_model.php on line 482

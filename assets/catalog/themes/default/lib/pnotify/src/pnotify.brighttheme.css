@@ -1,0 +1,69 @@
+/******************************
+ NOTIFICATION
+*******************************/
+.ui-pnotify {
+  top: 20px;
+  right: 20px;
+  position: fixed;
+  height: auto;
+  z-index: 99999999;
+  background-color: #f4f4f4;
+  padding: 10px; }
+
+.ui-pnotify-closer {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 3px;
+  top: 13px;
+  visibility: visible !important;
+  transition: all 0.2s;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  .ui-pnotify-closer:before {
+    /*content: "\e601";*/
+    content: "\f05c";
+    color: inherit;
+    font-size: 22px;
+    position: relative; }
+
+.chrome .ui-pnotify-closer {
+  top: 10px; }
+
+.ui-pnotify-title {
+  display: block;
+  background-color: #DE0E5C;
+  padding: 3px 10px 5px;
+  margin-bottom: 10px; 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.ui-pnotify-text {
+  height: 60px;
+  line-height: 16px;
+  display: block; }
+  .ui-pnotify-text img {
+    float: left;
+    margin-right: 10px;
+    max-width: 70px; }
+
+.notification-buttons {
+  float: left; }
+.notification-buttons a {
+    display: inline-block;
+    margin: 7px 10px 0 0;
+    color: white; }
+
+.tablet .ui-pnotify-closer, .mobile .ui-pnotify-closer {
+  display: block;
+  visibility: visible;
+  opacity: 1; }
+
+@media only screen and (min-width: 760px) {
+  .ui-pnotify {
+    min-width: 320px; } }
